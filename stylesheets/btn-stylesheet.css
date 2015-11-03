@@ -21,13 +21,13 @@ body {min-width: 600px; max-width: 1000px; height: 700px; margin: 0 auto;backgro
 			.btn2-bom-img{opacity: 0;transition: all 1s linear;}
 			.btn2-bom-img:hover{opacity: 1;cursor:pointer;}
 		
-			.ex-form{display: none;
+			.ex-form-green-button{display: none;
 				position: absolute;
 				bottom: -32px;
 				right: 16px;
 				background-color: white;
 				width: 450px;
-				height: 439px;
+				height: 520px;
 				border-radius: 5px;
 				padding: 20px;
 				box-sizing: border-box;
@@ -38,14 +38,14 @@ body {min-width: 600px; max-width: 1000px; height: 700px; margin: 0 auto;backgro
 				position: relative;
 				border: 1px solid #579C01;
 			}
-			.ex-form p{color: #333;
+			.ex-form-green-button p{color: #333;
 				font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 				font-size: 14px;
 				margin-top: 0px;
 			}
-			.ex-form .input-div{margin-bottom: 20px;				
+			.ex-form-green-button .input-div{margin-bottom: 20px;				
 			}
-			.ex-form input, .ex-form textarea{background: transparent none repeat scroll 0px 0px;
+			.ex-form-green-button input, .ex-form-green-button textarea{background: transparent none repeat scroll 0px 0px;
 				border: 1px solid #D9D9D9;
 				border-radius: 0px;
 				box-sizing: border-box;
@@ -58,13 +58,13 @@ body {min-width: 600px; max-width: 1000px; height: 700px; margin: 0 auto;backgro
 				padding: 4px 12px;
 				width: 100%;
 			}
-			.ex-form textarea{height: 116px;
+			.ex-form-green-button textarea{height: 116px;
 				line-height: 22px;
 				padding: 8px 12px;
 				resize: none;
 			}
-			.ex-form .helper-tags{display: none;}
-			.ex-form .btn{background-color: #579C01;
+			.ex-form-green-button .helper-tags{display: none;}
+			.ex-form-green-button .green-btn-btn{background-color: #579C01;
 				color: #FFF;
 				float: right;
 				font-size: 13px;
@@ -74,12 +74,13 @@ body {min-width: 600px; max-width: 1000px; height: 700px; margin: 0 auto;backgro
 				border: medium none;
 				border-radius: 4px;
 				display: inline-block;
+				margin: 10px;
 			}
-			.ex-form .btn:hover{background-color: #438800;
+			.ex-form-green-button .green-btn-btn:hover{background-color: #438800;
 				cursor: pointer;
 			}
-			.ex-form .file-input{display: none;}
-			.ex-form .file-att{background-color: transparent;
+			.ex-form-green-button .file-input{display: none;}
+			.ex-form-green-button .file-att{background-color: transparent;
 				color: #579C01;
 				display: block;
 				floatrightfont-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
