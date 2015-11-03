@@ -14,7 +14,7 @@ body {min-width: 600px; max-width: 1000px; height: 700px; margin: 0 auto;backgro
 	
 		/* button two */
 		.btn-box-2{position: fixed; top: 12px; right: 12px;}
-		.div-btn{position: fixed; bottom: 12px; right: 12px;background:#579C01 url(ex-1.png) no-repeat center center;background-size:60%;height: 54px; width: 54px; border-radius: 50%;transition: all .25s linear;}
+		.div-btn{position: fixed; bottom: 12px; right: 12px;background:#579C01 url(../assets/ex-1.png) no-repeat center center;background-size:60%;height: 54px; width: 54px; border-radius: 50%;transition: all .25s linear;}
 		.div-btn:hover{cursor:pointer;}
 			.btn2-top-img{opacity: 1;transition: all 1s linear;}
 			.btn2-top-img:hover{opacity: 0;cursor:pointer;}
